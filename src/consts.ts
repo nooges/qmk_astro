@@ -16,6 +16,8 @@ export const OPEN_GRAPH = {
 
 export const KNOWN_LANGUAGES = {
 	English: 'en',
+	日本語: 'ja',
+	简体中文: 'zh-cn'
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
@@ -49,6 +51,22 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Troubleshooting QMK', link: 'en/faq_misc' },
 			{ text: 'Debugging QMK', link: 'en/faq_debug' },
 			{ text: 'Keymap FAQ', link: 'en/faq_keymap' },
+		],
+	},
+	ja: {
+		'チュートリアル': [
+			{ text: '入門', link: 'ja/newbs' },
+			{ text: 'セットアップ', link: 'ja/newbs_getting_started' },
+			{ text: '初めてのファームウェアの構築', link: 'ja/newbs_building_firmware' },
+			{ text: 'ファームウェアのフラッシュ', link: 'ja/newbs_flashing' },
+			{ text: '手助けを得る/サポート', link: 'ja/support' },
+		],
+		'FAQ': [
+			{ text: '一般的な FAQ', link: 'en/faq_general' },
+			{ text: 'QMK のビルド/コンパイル', link: 'ja/faq_build' },
+			{ text: 'QMK のデバッグ', link: 'ja/faq_misc' },
+			{ text: 'QMK のトラブルシューティング', link: 'ja/faq_debug' },
+			{ text: 'キーマップ FAQ', link: 'ja/faq_keymap' },
 		],
 	},
 };
