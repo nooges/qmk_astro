@@ -22,17 +22,17 @@ QMK は初めてですか？始めるには2つの方法があります:
 * 基本: [QMK Configurator](https://config.qmk.fm)
     * ドロップダウンからあなたのキーボードを選択し、キーボードをプログラムします。
     * 見ることができる [紹介ビデオ](https://www.youtube.com/watch?v=-imgglzDMdY) があります。
-    * 読むことができる概要 [ドキュメント](ja/newbs_building_firmware_configurator) があります。
-* 発展: [ソースを使用します](ja/newbs)
+    * 読むことができる概要 [ドキュメント](newbs_building_firmware_configurator) があります。
+* 発展: [ソースを使用します](newbs)
     * より強力ですが、使うのはより困難です。
 
 ## 自分用にアレンジします
 
-QMK には、探求すべき多くの[機能](ja/features)と、深く知るためのリファレンスドキュメントがたくさんあります。ほとんどの機能は[キーマップ](ja/keymap)を変更し、[キーコード](ja/keycodes)を変更することで活用されます。
+QMK には、探求すべき多くの[機能](features)と、深く知るためのリファレンスドキュメントがたくさんあります。ほとんどの機能は[キーマップ](keymap)を変更し、[キーコード](keycodes)を変更することで活用されます。
 
 ## 手助けが必要ですか？
 
-[サポートページ](ja/support) をチェックして、QMK の使い方について手助けを得る方法を確認してください。
+[サポートページ](support) をチェックして、QMK の使い方について手助けを得る方法を確認してください。
 
 ## 貢献する
 
@@ -42,6 +42,6 @@ QMK コミュニティに貢献する方法はたくさんあります。始め�
     * [/r/olkb](https://www.reddit.com/r/olkb/)
     * [Discord サーバ](https://discord.gg/Uq7gcHh)
 * 下にある「Edit This Page」をクリックしてドキュメントに貢献します
-* [ドキュメントをあなたの言語に翻訳します](ja/translating)
+* [ドキュメントをあなたの言語に翻訳します](translating)
 * [バグを報告します](https://github.com/qmk/qmk_firmware/issues/new/choose)
-* [プルリクエストを開きます](ja/contributing)
+* [プルリクエストを開きます](contributing)

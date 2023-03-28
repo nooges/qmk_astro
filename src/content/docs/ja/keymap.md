@@ -183,7 +183,7 @@ Clueboard の基本レイヤーの例です:
 
 これで独自のキーマップを作成するための基本的な概要が得られました。詳細は以下のリソースを見てください:
 
-* [キーコード](ja/keycodes)
-* [キーマップ FAQ](ja/faq_keymap)
+* [キーコード](keycodes)
+* [キーマップ FAQ](faq_keymap)
 
 これらのドキュメントの改善に積極的に取り組んでいます。それらを改善する方法について提案がある場合は、[issue を報告](https://github.com/qmk/qmk_firmware/issues/new)してください！

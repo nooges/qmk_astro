@@ -20,12 +20,12 @@ QMK ファームウェアには、任意のキーボードで使用可能な一�
 
 | Transport | AVR | ARM |
 |------------------------------|--------------------|--------------------|
-| ['serial'](ja/serial_driver) | :heavy_check_mark: | :white_check_mark: <sup>1</sup> |
+| ['serial'](serial_driver) | :heavy_check_mark: | :white_check_mark: <sup>1</sup> |
 | I2C | :heavy_check_mark: |  |
 
 注意:
 
-1. ハードウェアとソフトウェアの両方の制限は、[ドライバーのドキュメント](ja/serial_driver)の中で説明されます。
+1. ハードウェアとソフトウェアの両方の制限は、[ドライバーのドキュメント](serial_driver)の中で説明されます。
 
 ## ハードウェア設定
 
