@@ -62,7 +62,7 @@ export const SIDEBAR: Sidebar = {
 			{ text: '手助けを得る/サポート', link: 'ja/support' },
 		],
 		'FAQ': [
-			{ text: '一般的な FAQ', link: 'en/faq_general' },
+			{ text: '一般的な FAQ', link: 'ja/faq_general' },
 			{ text: 'QMK のビルド/コンパイル', link: 'ja/faq_build' },
 			{ text: 'QMK のデバッグ', link: 'ja/faq_misc' },
 			{ text: 'QMK のトラブルシューティング', link: 'ja/faq_debug' },
