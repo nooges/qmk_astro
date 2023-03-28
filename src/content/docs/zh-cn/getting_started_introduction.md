@@ -13,7 +13,7 @@ QMK是[Jun Wako](https://github.com/tmk)的[tmk_keyboard](https://github.com/tmk
 
 ### 用户空间结构
 
-在`users`文件夹里面的目录是每个用户的目录。这个文件夹里面放的是用户们在不同键盘都能用到的代码。详见[用户空间特性](zh-cn/feature_userspace.md) 
+在`users`文件夹里面的目录是每个用户的目录。这个文件夹里面放的是用户们在不同键盘都能用到的代码。详见[用户空间特性](zh-cn/feature_userspace) 
 
 ### 键盘项目结构
 

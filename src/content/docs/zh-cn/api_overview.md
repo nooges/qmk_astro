@@ -9,12 +9,12 @@ QMK API提供了一套可用于Web及GUI工具可用的异步API，用于实现�
 
 ## App开发者
 
-若您是一位意愿将这套API引入您的程序中的移动端App开发者，请参阅[API使用指引](zh-cn/api_docs.md)。
+若您是一位意愿将这套API引入您的程序中的移动端App开发者，请参阅[API使用指引](zh-cn/api_docs)。
 
 ## 键盘维护团队
 
-若您希望强化您维护的键盘方案在QMK编译API中的支持，请参阅[键盘支持](zh-cn/reference_configurator_support.md)。
+若您希望强化您维护的键盘方案在QMK编译API中的支持，请参阅[键盘支持](zh-cn/reference_configurator_support)。
 
 ## 后端开发者
 
-若您对这套API系统本身感兴趣，请参阅[开发环境](zh-cn/api_development_environment.md)搭建环境并继续深入探索[架构总览](zh-cn/api_development_overview.md)。
+若您对这套API系统本身感兴趣，请参阅[开发环境](zh-cn/api_development_environment)搭建环境并继续深入探索[架构总览](zh-cn/api_development_overview)。

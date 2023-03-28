@@ -56,8 +56,8 @@ Never made an open source contribution before? Wondering how contributions work 
 
 Most of our style is pretty easy to pick up on. If you are familiar with either C or Python you should not have too much trouble with our local styles.
 
-* [Coding Conventions - C](coding_conventions_c.md)
-* [Coding Conventions - Python](coding_conventions_python.md)
+* [Coding Conventions - C](coding_conventions_c)
+* [Coding Conventions - Python](coding_conventions_python)
 
 # General Guidelines
 
@@ -117,7 +117,7 @@ and navigating to `http://localhost:8936/`.
 
 Most first-time QMK contributors start with their personal keymaps. We try to keep keymap standards pretty casual (keymaps, after all, reflect the personality of their creators) but we do ask that you follow these guidelines to make it easier for others to discover and learn from your keymap.
 
-* Write a `readme.md` using [the template](documentation_templates.md).
+* Write a `readme.md` using [the template](documentation_templates).
 * All Keymap PRs are squashed, so if you care about how your commits are squashed you should do it yourself
 * Do not lump features in with keymap PRs. Submit the feature first and then a second PR for the keymap.
 * Do not include `Makefile`s in your keymap folder (they're no longer used)
@@ -129,7 +129,7 @@ Keyboards are the raison d'être for QMK. Some keyboards are community maintaine
 
 We also ask that you follow these guidelines:
 
-* Write a `readme.md` using [the template](documentation_templates.md).
+* Write a `readme.md` using [the template](documentation_templates).
 * Keep the number of commits reasonable or we will squash your PR
 * Do not lump core features in with new keyboards. Submit the feature first and then submit a separate PR for the keyboard.
 * Name `.c`/`.h` file after the immediate parent folder, eg `/keyboards/<kb1>/<kb2>/<kb2>.[ch]`
@@ -138,7 +138,7 @@ We also ask that you follow these guidelines:
 
 ## Quantum/TMK Core
 
-Before you put a lot of work into building your new feature you should make sure you are implementing it in the best way. You can get a basic understanding of QMK by reading [Understanding QMK](understanding_qmk.md), which will take you on a tour of the QMK program flow. From here you should talk to us to get a sense of the best way to implement your idea. There are two main ways to do this:
+Before you put a lot of work into building your new feature you should make sure you are implementing it in the best way. You can get a basic understanding of QMK by reading [Understanding QMK](understanding_qmk), which will take you on a tour of the QMK program flow. From here you should talk to us to get a sense of the best way to implement your idea. There are two main ways to do this:
 
 * [Chat on Discord](https://discord.gg/Uq7gcHh)
 * [Open an Issue](https://github.com/qmk/qmk_firmware/issues/new)
@@ -156,7 +156,7 @@ We also ask that you follow these guidelines:
 
 * Keep the number of commits reasonable or we will squash your PR
 * Do not lump keyboards or keymaps in with core changes. Submit your core changes first.
-* Write [Unit Tests](unit_testing.md) for your feature
+* Write [Unit Tests](unit_testing) for your feature
 * Follow the style of the file you are editing. If the style is unclear or there are mixed styles you should conform to the [coding conventions](#coding-conventions) above.
 
 ## Refactoring

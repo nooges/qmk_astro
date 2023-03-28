@@ -165,7 +165,7 @@ Arch系环境下可以使用官方源安装命令行程序（在写这份文档�
 
 ?> QMK的home目录可以在安装时通过 `qmk setup -H <path>` 来指定，安装后也可以通过[命令行程序来配置](zh-cn/cli_configuration.md?id=single-key-example)`user.qmk_home`变量，可以通过 `qmk setup --help` 查看所有可用配置。
 
-?> 若你熟悉GitHub，[推荐阅读这份指引](zh-cn/getting_started_github.md)通过 `qmk setup <github_username>/qmk_firmware` 来clone你自己的fork。如果你看不懂这一段啥意思，忽略就是了。
+?> 若你熟悉GitHub，[推荐阅读这份指引](zh-cn/getting_started_github)通过 `qmk setup <github_username>/qmk_firmware` 来clone你自己的fork。如果你看不懂这一段啥意思，忽略就是了。
 
 ## 4. 测试你的构建环境
 
@@ -205,4 +205,4 @@ Checking file size of clueboard_66_rev3_default.hex                             
 
 # 制作你自己的键映射
 
-万事俱备啦！请继续阅读[构建第一个固件](zh-cn/newbs_building_firmware.md).
+万事俱备啦！请继续阅读[构建第一个固件](zh-cn/newbs_building_firmware).

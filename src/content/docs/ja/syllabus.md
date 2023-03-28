@@ -9,19 +9,19 @@
 
 # 初級トピック
 
-他に何も読んでいない場合は、このセクションのドキュメントを読んでください。[QMK 初心者ガイド](ja/newbs.md)を読み終わると、基本的なキーマップを作成し、それをコンパイルし、キーボードに書き込みできるようになっているはずです。残りのドキュメントはこれらの基本的な知識を具体的に肉付けします。
+他に何も読んでいない場合は、このセクションのドキュメントを読んでください。[QMK 初心者ガイド](ja/newbs)を読み終わると、基本的なキーマップを作成し、それをコンパイルし、キーボードに書き込みできるようになっているはずです。残りのドキュメントはこれらの基本的な知識を具体的に肉付けします。
 
 * **QMK Tools の使い方を学ぶ**
-   * [QMK 初心者ガイド](ja/newbs.md)
-   * [CLI](ja/cli.md)
-   * [Git](ja/newbs_git_best_practices.md)
+   * [QMK 初心者ガイド](ja/newbs)
+   * [CLI](ja/cli)
+   * [Git](ja/newbs_git_best_practices)
 * **キーマップについて学ぶ**
-   * [レイヤー](ja/feature_layers.md)
-   * [キーコード](ja/keycodes.md)
+   * [レイヤー](ja/feature_layers)
+   * [キーコード](ja/keycodes)
       * 使用できるキーコードの完全なリスト。中級または上級トピックにある知識が必要な場合もあることに注意してください。
 * **IDE の設定** - オプション
-   * [Eclipse](ja/other_eclipse.md)
-   * [VS Code](ja/other_vscode.md)
+   * [Eclipse](ja/other_eclipse)
+   * [VS Code](ja/other_vscode)
 
 # 中級トピック
 
@@ -29,48 +29,48 @@
 
 * **機能の設定方法を学ぶ**
    <!-- * Configuration Overview  FIXME(skullydazed/anyone): write this document -->
-   * [オーディオ](ja/feature_audio.md)
+   * [オーディオ](ja/feature_audio)
    * 電飾
-      * [バックライト](ja/feature_backlight.md)
-      * [LED マトリックス](ja/feature_led_matrix.md)
-      * [RGB ライト](ja/feature_rgblight.md)
-      * [RGB マトリックス](ja/feature_rgb_matrix.md)
-   * [タップホールド設定](ja/tap_hold.md)
+      * [バックライト](ja/feature_backlight)
+      * [LED マトリックス](ja/feature_led_matrix)
+      * [RGB ライト](ja/feature_rgblight)
+      * [RGB マトリックス](ja/feature_rgb_matrix)
+   * [タップホールド設定](ja/tap_hold)
 * **キーマップについてさらに学ぶ**
-   * [キーマップ](ja/keymap.md)
-   * [カスタム関数とキーコード](ja/custom_quantum_functions.md)
+   * [キーマップ](ja/keymap)
+   * [カスタム関数とキーコード](ja/custom_quantum_functions)
    * マクロ
-      * [動的マクロ](ja/feature_dynamic_macros.md)
-      * [コンパイル済みのマクロ](ja/feature_macros.md)
-   * [タップダンス](ja/feature_tap_dance.md)
-   * [コンボ](ja/feature_combo.md)
-   * [ユーザスペース](ja/feature_userspace.md)
-   * [キーオーバーライド](ja/feature_key_overrides.md)
+      * [動的マクロ](ja/feature_dynamic_macros)
+      * [コンパイル済みのマクロ](ja/feature_macros)
+   * [タップダンス](ja/feature_tap_dance)
+   * [コンボ](ja/feature_combo)
+   * [ユーザスペース](ja/feature_userspace)
+   * [キーオーバーライド](ja/feature_key_overrides)
 
 # 上級トピック
 
 以下の全ては多くの基礎知識を必要とします。高度な機能を使ってキーマップを作成できることに加えて、`config.h` と `rules.mk` の両方を使ってキーボードのオプションを設定することに慣れている必要があります。
 
 * **QMK 内のキーボードの保守**
-   * [キーボードの手配線](ja/hand_wire.md)
-   * [キーボードガイドライン](ja/hardware_keyboard_guidelines.md)
-   * [info.json リファレンス](ja/reference_info_json.md)
-   * [デバウンス API](ja/feature_debounce_type.md)
+   * [キーボードの手配線](ja/hand_wire)
+   * [キーボードガイドライン](ja/hardware_keyboard_guidelines)
+   * [info.json リファレンス](ja/reference_info_json)
+   * [デバウンス API](ja/feature_debounce_type)
 * **高度な機能**
-   * [ユニコード](ja/feature_unicode.md)
-   * [API](ja/api_overview.md)
-   * [ブートマジックライト](ja/feature_bootmagic.md)
+   * [ユニコード](ja/feature_unicode)
+   * [API](ja/api_overview)
+   * [ブートマジックライト](ja/feature_bootmagic)
 * **ハードウェア**
-   * [キーボードがどのように動作するか](ja/how_keyboards_work.md)
-   * [キーボードマトリックスの仕組み](ja/how_a_matrix_works.md)
-   * [分割キーボード](ja/feature_split_keyboard.md)
-   * [速記](ja/feature_stenography.md)
-   * [ポインティングデバイス](ja/feature_pointing_device.md)
+   * [キーボードがどのように動作するか](ja/how_keyboards_work)
+   * [キーボードマトリックスの仕組み](ja/how_a_matrix_works)
+   * [分割キーボード](ja/feature_split_keyboard)
+   * [速記](ja/feature_stenography)
+   * [ポインティングデバイス](ja/feature_pointing_device)
 * **コア開発**
-   * [コーディング規約](ja/coding_conventions_c.md)
-   * [互換性のあるマイクロコントローラ](ja/compatible_microcontrollers.md)
-   * [カスタムマトリックス](ja/custom_matrix.md)
-   * [QMK を理解する](ja/understanding_qmk.md)
+   * [コーディング規約](ja/coding_conventions_c)
+   * [互換性のあるマイクロコントローラ](ja/compatible_microcontrollers)
+   * [カスタムマトリックス](ja/custom_matrix)
+   * [QMK を理解する](ja/understanding_qmk)
 * **CLI 開発**
-   * [コーディング規約](ja/coding_conventions_python.md)
-   * [CLI 開発の概要](ja/cli_development.md)
+   * [コーディング規約](ja/coding_conventions_python)
+   * [CLI 開発の概要](ja/cli_development)

@@ -23,7 +23,7 @@
 
 # 需求
 ## 构建环境
-在开始之前，你需要确保遵循了新手教程中的[新手指引](zh-cn/newbs_getting_started.md)一节。通常，此时你应该具备了[通过 `qmk complile` 命令](zh-cn/newbs_building_firmware.md#build-your-firmware)构建固件文件的能力。
+在开始之前，你需要确保遵循了新手教程中的[新手指引](zh-cn/newbs_getting_started)一节。通常，此时你应该具备了[通过 `qmk complile` 命令](zh-cn/newbs_building_firmware.md#build-your-firmware)构建固件文件的能力。
 
 ## Java
 Eclipse为Java程序，因此需要安装Java 8或更高版本才能运行。你可以选择JRE或JDK，后者在进行Java开发时需要用到。

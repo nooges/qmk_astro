@@ -7,7 +7,7 @@
 
 对于很多人来说对客制化键盘的诉求不只是向电脑输入按下的键。你肯定想实现比简单按键和宏更复杂的功能。QMK支持基于注入点的代码注入，功能重写，另外还可以自定义键盘在不同情况下的行为。
 
-本页不要求任何额外的QMK知识基础，但阅读[理解QMK](zh-cn/understanding_qmk.md)将会在更基础的层面帮你理解发生了什么。
+本页不要求任何额外的QMK知识基础，但阅读[理解QMK](zh-cn/understanding_qmk)将会在更基础的层面帮你理解发生了什么。
 
 ## 核心/键盘/键映射的概念 :id=a-word-on-core-vs-keyboards-vs-keymap
 
@@ -236,7 +236,7 @@ void suspend_wakeup_init_user(void) {
 
 ### `layer_state_set_*` 实现示例
 
-本例中，通过Planck键盘示范了如何将[RGB背光灯](zh-cn/feature_rgblight.md)设置为与层同步。
+本例中，通过Planck键盘示范了如何将[RGB背光灯](zh-cn/feature_rgblight)设置为与层同步。
 
 ```c
 layer_state_t layer_state_set_user(layer_state_t state) {
@@ -385,7 +385,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   }
 }
 ```
-最后，须添加 `eeconfig_init_user` 函数，从而当EEPROM重置时，可以指定默认值, 甚至自定义操作。若想强制重置EEPROM，请用 `EEP_RST` 键码或[Bootmagic](zh-cn/feature_bootmagic.md) 功能。比如，在你想重置RGB层指示配置，并保存默认值时。
+最后，须添加 `eeconfig_init_user` 函数，从而当EEPROM重置时，可以指定默认值, 甚至自定义操作。若想强制重置EEPROM，请用 `EEP_RST` 键码或[Bootmagic](zh-cn/feature_bootmagic) 功能。比如，在你想重置RGB层指示配置，并保存默认值时。
 
 ```c
 void eeconfig_init_user(void) {  // EEPROM被重置

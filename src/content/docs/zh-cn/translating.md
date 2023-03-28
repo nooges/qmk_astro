@@ -10,7 +10,7 @@
 文件夹下的 `_summary.md` 文件中，有链接向其它文件的地址，在翻译过的名称后，跟随的链接前应添加该语言的目录名：
 
 ```markdown
- * [QMK简介](zh-cn/getting_started_introduction.md)
+ * [QMK简介](zh-cn/getting_started_introduction)
 ```
 
 所有导向其它文档页面的链接也必须有语言目录名前缀，若还指向了页面指定位置（即特定的标题），必须使用标题的英文ID，如：
@@ -23,7 +23,7 @@
 
 在翻译后，以下文件也需要进行修改：
 
-* [`docs/_langs.md`](https://github.com/qmk/qmk_firmware/blob/master/docs/_langs.md)  
+* [`docs/_langs.md`](https://github.com/qmk/qmk_firmware/blob/master/docs/_langs)  
   中的每一行应包含该语言国家国旗的[GitHub emoji编码](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#country-flag)标志：
 
   ```markdown

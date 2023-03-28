@@ -1,8 +1,8 @@
 # Adding Your Keyboard to QMK
 
-This page describes the support for [Compatible Microcontrollers](compatible_microcontrollers.md) in QMK.
+This page describes the support for [Compatible Microcontrollers](compatible_microcontrollers) in QMK.
 
-If you have not yet you should read the [Keyboard Guidelines](hardware_keyboard_guidelines.md) to get a sense of how keyboards fit into QMK.
+If you have not yet you should read the [Keyboard Guidelines](hardware_keyboard_guidelines) to get a sense of how keyboards fit into QMK.
 
 
 QMK has a number of features to simplify working with keyboards. For most, you don't have to write a single line of code. To get started, run `qmk new-keyboard`:
@@ -60,7 +60,7 @@ This is where you'll describe your keyboard. Please follow the [Keyboard Readme 
 
 ## `info.json`
 
-The `info.json` file is where you configure the hardware and feature set for your keyboard. There are a lot of options that can be placed in that file, too many to list here. For a complete overview of available options see the [Data Driven Configuration Options](reference_info_json.md) page.
+The `info.json` file is where you configure the hardware and feature set for your keyboard. There are a lot of options that can be placed in that file, too many to list here. For a complete overview of available options see the [Data Driven Configuration Options](reference_info_json) page.
 
 ### Hardware Configuration
 
@@ -154,7 +154,7 @@ In the above example,
 
 ## Additional Configuration
 
-There are a lot of features that can be turned on or off, configured or tuned. Some of these have yet to be migrated over to [Data Driven Configuration](data_driven_config.md). The following sections cover the process for when an `info.json` option is unavailable.
+There are a lot of features that can be turned on or off, configured or tuned. Some of these have yet to be migrated over to [Data Driven Configuration](data_driven_config). The following sections cover the process for when an `info.json` option is unavailable.
 
 ### Configuration Options
 For available options for `config.h`, you should see the [Config Options](config_options.md#the-configh-file) page for more details.

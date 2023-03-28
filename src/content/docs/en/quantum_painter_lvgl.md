@@ -2,7 +2,7 @@
 
 LVGL (Light and Versatile Graphics Library) is an open-source graphics library providing everything you need to create an embedded GUI for your board with easy-to-use graphical elements.
 
-LVGL integrates with [Quantum Painter's](quantum_painter.md) API and drivers to render to the display, the hardware supported by Quantum Painter is also supported by LVGL.
+LVGL integrates with [Quantum Painter's](quantum_painter) API and drivers to render to the display, the hardware supported by Quantum Painter is also supported by LVGL.
 
 ?> Keep in mind that enabling the LVGL integration has a big impact in firmware size, it is recommeded to use a supported MCU with >256 kB of flash space.
 

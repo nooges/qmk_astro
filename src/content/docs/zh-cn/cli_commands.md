@@ -91,7 +91,7 @@ qmk compile -j 0 -kb <keyboard_name>
 
 ## `qmk flash` :id=qmk-flash
 
-该命令与 `qmk compile` 类似，但额外地可以指定bootloader。bootloader参数是可选的，默认会指定为 `:flash`。可通过 `-bl <bootloader>` 来指定bootloader。请查阅[刷写固件](zh-cn/flashing.md)指引以深入了解可用的bootloader信息。
+该命令与 `qmk compile` 类似，但额外地可以指定bootloader。bootloader参数是可选的，默认会指定为 `:flash`。可通过 `-bl <bootloader>` 来指定bootloader。请查阅[刷写固件](zh-cn/flashing)指引以深入了解可用的bootloader信息。
 
 该命令会尝试感知目录路径，当你在键盘或键映射目录下执行时，KEYBOARD及KEYMAP参数将被自动填入。
 
@@ -115,7 +115,7 @@ qmk flash -b
 
 ## `qmk config`
 
-该命令用于配置QMK功能，完整的 `qmk config` 文档参见[CLI配置](zh-cn/cli_configuration.md)。
+该命令用于配置QMK功能，完整的 `qmk config` 文档参见[CLI配置](zh-cn/cli_configuration)。
 
 **使用方法**：
 
@@ -437,7 +437,7 @@ qmk generate-docs
 
 ## `qmk generate-rgb-breathe-table`
 
-该命令可以生成用于[RGB灯光](zh-cn/feature_rgblight.md)的呼吸效果的查询表（LUT）头文件。将该文件命名为 `rgblight_breathe_table.h` 并放入键盘或键映射目录下，可以覆盖替换 `quantum/rgblight/` 下的默认LUT。
+该命令可以生成用于[RGB灯光](zh-cn/feature_rgblight)的呼吸效果的查询表（LUT）头文件。将该文件命名为 `rgblight_breathe_table.h` 并放入键盘或键映射目录下，可以覆盖替换 `quantum/rgblight/` 下的默认LUT。
 
 **用法**：
 

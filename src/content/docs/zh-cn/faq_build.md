@@ -5,7 +5,7 @@
   git diff 0.15.12 HEAD -- docs/faq_build.md | cat
 -->
 
-本页涉及所有编译QMK的问题，如果你还没有试过，请先阅读[编译环境配置](zh-cn/getting_started_build_tools.md)及[Make指引](zh-cn/getting_started_make_guide.md)。
+本页涉及所有编译QMK的问题，如果你还没有试过，请先阅读[编译环境配置](zh-cn/getting_started_build_tools)及[Make指引](zh-cn/getting_started_make_guide)。
 
 ## 无法在Linux下编程
 操作设备需要足够的权限，对于Linux用户，请参阅下方有关 `udev` 的规则说明。如果你对 `udev` 有困惑，可以先试试 `sudo` 命令，如果你对这个命令不熟悉，可以通过 `man sudo` 或 [这个web页面](https://linux.die.net/man/8/sudo)进行了解。
@@ -50,7 +50,7 @@ sudo systemctl restart ModemManager
 
 要修复这个问题，可以尝试重新执行QMK安装脚本(位于MSYS2或WSL中的 `qmk_firmware` 目录下的 `./util/qmk_install.sh`)或重新安装QMK工具箱。此外，也可以尝试下载安装[QMK驱动安装包 `qmk_driver_installer`](https://github.com/qmk/qmk_driver_installer)来修复。
 
-如果问题依旧，可能是需要下载安装Zadig，具体请参考[通过Zadig安装bootloader驱动](zh-cn/driver_installation_zadig.md)。
+如果问题依旧，可能是需要下载安装Zadig，具体请参考[通过Zadig安装bootloader驱动](zh-cn/driver_installation_zadig)。
 
 ## USB VID 和 PID
 通过编辑 `config.h` 你可以自由指定ID，随便选一个看起来不常用的ID一般不会有什么问题，冲突的概率很低。
@@ -70,4 +70,4 @@ https://github.com/tmk/tmk_keyboard/issues/150
 [Planck rev6 上重置 EEPROM](https://cdn.discordapp.com/attachments/473506116718952450/539284620861243409/planck_rev6_default.bin) 可以用于强制重置EEPROM。刷入这个文件后，再次刷入正常固件，会将键盘恢复到_正常_工作状态。
 [Preonic rev3 上重置 EEPROM](https://cdn.discordapp.com/attachments/473506116718952450/537849497313738762/preonic_rev3_default.bin)
 
-也可以考虑使用bootmagic，只要它可以用。（参见[Bootmagic文档](zh-cn/feature_bootmagic.md)并结合键盘情况来了解如何操作）
+也可以考虑使用bootmagic，只要它可以用。（参见[Bootmagic文档](zh-cn/feature_bootmagic)并结合键盘情况来了解如何操作）

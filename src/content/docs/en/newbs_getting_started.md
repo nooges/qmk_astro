@@ -160,7 +160,7 @@ In most situations you will want to answer `y` to all of the prompts.
 
 ?> The qmk home folder can be specified at setup with `qmk setup -H <path>`, and modified afterwards using the [cli configuration](cli_configuration.md?id=single-key-example) and the variable `user.qmk_home`. For all available options run `qmk setup --help`.
 
-?> If you already know how to use GitHub, [we recommend that you follow these instructions](getting_started_github.md) and use `qmk setup <github_username>/qmk_firmware` to clone your personal fork. If you don't know what that means you can safely ignore this message.
+?> If you already know how to use GitHub, [we recommend that you follow these instructions](getting_started_github) and use `qmk setup <github_username>/qmk_firmware` to clone your personal fork. If you don't know what that means you can safely ignore this message.
 
 ## 4. Test Your Build Environment
 
@@ -184,4 +184,4 @@ Checking file size of clueboard_66_rev3_default.hex                             
 
 # Creating Your Keymap
 
-You are now ready to create your own personal keymap! Move on to [Building Your First Firmware](newbs_building_firmware.md) for that.
+You are now ready to create your own personal keymap! Move on to [Building Your First Firmware](newbs_building_firmware) for that.

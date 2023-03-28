@@ -19,8 +19,8 @@
 
 参见：
 
-* [基础键码资料](zh-cn/keycodes_basic.md)
-* [进阶键码资料](zh-cn/feature_advanced_keycodes.md)
+* [基础键码资料](zh-cn/keycodes_basic)
+* [进阶键码资料](zh-cn/feature_advanced_keycodes)
 
 ## 无法编译
 

@@ -10,7 +10,7 @@
 `_summary.md` ファイルはこのフォルダの中に存在し、各ファイルへのリンクのリスト、翻訳された名前、言語フォルダに続くリンクが含まれている必要があります。
 
 ```markdown
- * [QMK简介](zh-cn/getting_started_introduction.md)
+ * [QMK简介](zh-cn/getting_started_introduction)
 ```
 
 他の docs ページへの全てのリンクにも、言語のフォルダが前に付いている必要があります。もしリンクがページの特定の部分(例えば、特定の見出し)への場合、以下のように見出しに英語の ID を使う必要があります:
@@ -23,7 +23,7 @@
 
 新しい言語の翻訳が完了したら、以下のファイルも修正する必要があります:
 
-* [`docs/_langs.md`](https://github.com/qmk/qmk_firmware/blob/master/docs/_langs.md)
+* [`docs/_langs.md`](https://github.com/qmk/qmk_firmware/blob/master/docs/_langs)
 各行は、[GitHub emoji shortcode](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#country-flag) の形式で国フラグと、それに続く言語で表される名前を含む必要があります。
 
   ```markdown

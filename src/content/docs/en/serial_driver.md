@@ -1,6 +1,6 @@
 # 'serial' Driver
 
-The serial driver powers the [Split Keyboard](feature_split_keyboard.md) feature. Several implementations are available, depending on the platform of your split keyboard. Note that none of the drivers support split keyboards with more than two halves.
+The serial driver powers the [Split Keyboard](feature_split_keyboard) feature. Several implementations are available, depending on the platform of your split keyboard. Note that none of the drivers support split keyboards with more than two halves.
 
 | Driver                                  | AVR                | ARM                | Connection between halves                                                                     |
 | --------------------------------------- | ------------------ | ------------------ | --------------------------------------------------------------------------------------------- |
@@ -285,7 +285,7 @@ If you're having issues withe serial communication, you can enable debug message
 #define SERIAL_DEBUG
 ```
  
-?> The messages will be printed out to the `CONSOLE` output. For additional information, refer to [Debugging/Troubleshooting QMK](faq_debug.md).
+?> The messages will be printed out to the `CONSOLE` output. For additional information, refer to [Debugging/Troubleshooting QMK](faq_debug).
 
 ## Alternate Functions for selected STM32 MCUs
 

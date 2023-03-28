@@ -178,7 +178,7 @@ You can also switch the input mode by calling `set_unicode_input_mode(x)` in you
 
 #### Audio Feedback
 
-If you have the [Audio feature](feature_audio.md) enabled on the board, you can set melodies to be played when you press the above keys. That way you can have some audio feedback when switching input modes.
+If you have the [Audio feature](feature_audio) enabled on the board, you can set melodies to be played when you press the above keys. That way you can have some audio feedback when switching input modes.
 
 For instance, you can add these definitions to your `config.h` file:
 
@@ -238,7 +238,7 @@ This function is much like `send_string()`, but it allows you to input UTF-8 cha
 send_unicode_string("(ノಠ痊ಠ)ノ彡┻━┻");
 ```
 
-Example uses include sending Unicode strings when a key is pressed, as described in [Macros](feature_macros.md).
+Example uses include sending Unicode strings when a key is pressed, as described in [Macros](feature_macros).
 
 ## Additional Language Support
 

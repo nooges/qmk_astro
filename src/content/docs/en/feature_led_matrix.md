@@ -2,7 +2,7 @@
 
 This feature allows you to use LED matrices driven by external drivers. It hooks into the backlight system so you can use the same keycodes as backlighting to control it.
 
-If you want to use RGB LED's you should use the [RGB Matrix Subsystem](feature_rgb_matrix.md) instead.
+If you want to use RGB LED's you should use the [RGB Matrix Subsystem](feature_rgb_matrix) instead.
 
 ## Driver configuration :id=driver-configuration
 ---
@@ -219,7 +219,7 @@ As mentioned earlier, the center of the keyboard by default is expected to be `{
 
 ## Keycodes :id=keycodes
 
-All LED matrix keycodes are currently shared with the [Backlight feature](feature_backlight.md).
+All LED matrix keycodes are currently shared with the [Backlight feature](feature_backlight).
 
 | Key                     | Aliases   | Description                   |
 |-------------------------|-----------|-------------------------------|

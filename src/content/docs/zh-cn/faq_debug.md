@@ -9,7 +9,7 @@
 
 ## 调试 :id=debugging
 
-如果你在 `rules.mk` 中配置了 `CONSOLE_ENABLE = yes`，你的键盘将会输出调试信息。默认情况下输出很有限，可以启用调试模式来增加调试输出的丰富度。使用你的键映射方案中的 `DEBUG` 键码，或使用[指令](zh-cn/feature_command.md)功能来启动调试模式，或者将下面这段代码放到你的键映射中：
+如果你在 `rules.mk` 中配置了 `CONSOLE_ENABLE = yes`，你的键盘将会输出调试信息。默认情况下输出很有限，可以启用调试模式来增加调试输出的丰富度。使用你的键映射方案中的 `DEBUG` 键码，或使用[指令](zh-cn/feature_command)功能来启动调试模式，或者将下面这段代码放到你的键映射中：
 
 ```c
 void keyboard_post_init_user(void) {
@@ -39,7 +39,7 @@ void keyboard_post_init_user(void) {
 
 ## 发送自定义调试信息 :id=debug-api
 
-有时在[自定义代码](zh-cn/custom_quantum_functions.md)中输出调试信息非常有用，要做到这个功能也很简单，在代码文件头部包含 `print.h` 文件：
+有时在[自定义代码](zh-cn/custom_quantum_functions)中输出调试信息非常有用，要做到这个功能也很简单，在代码文件头部包含 `print.h` 文件：
 
 ```c
 #include "print.h"
@@ -54,7 +54,7 @@ void keyboard_post_init_user(void) {
 
 ## 调试示例
 
-以下列出了一些实际出现过的调试范例，更多资料参见[调试/定位QMK问题](zh-cn/faq_debug.md)。
+以下列出了一些实际出现过的调试范例，更多资料参见[调试/定位QMK问题](zh-cn/faq_debug)。
 
 ### 当前按下的键的矩阵坐标是什么？
 

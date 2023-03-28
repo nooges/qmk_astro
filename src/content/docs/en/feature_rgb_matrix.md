@@ -2,7 +2,7 @@
 
 This feature allows you to use RGB LED matrices driven by external drivers. It hooks into the RGBLIGHT system so you can use the same keycodes as RGBLIGHT to control it.
 
-If you want to use single color LED's you should use the [LED Matrix Subsystem](feature_led_matrix.md) instead.
+If you want to use single color LED's you should use the [LED Matrix Subsystem](feature_led_matrix) instead.
 
 ## Driver configuration :id=driver-configuration
 ---
@@ -366,7 +366,7 @@ Configure the hardware via your `config.h`:
 #define RGB_MATRIX_LED_COUNT 70
 ```
 
-?> There are additional configuration options for ARM controllers that offer increased performance over the default bitbang driver. Please see [WS2812 Driver](ws2812_driver.md) for more information.
+?> There are additional configuration options for ARM controllers that offer increased performance over the default bitbang driver. Please see [WS2812 Driver](ws2812_driver) for more information.
 
 ---
 
@@ -537,7 +537,7 @@ All RGB keycodes are currently shared with the RGBLIGHT system:
 ?> `RGB_*` keycodes cannot be used with functions like `tap_code16(RGB_HUD)` as they're not USB HID keycodes. If you wish to replicate similar behaviour in custom code within your firmware (e.g. inside `encoder_update_user()` or `process_record_user()`), the equivalent [RGB functions](#functions) should be used instead.
 
 
-!> By default, if you have both the [RGB Light](feature_rgblight.md) and the RGB Matrix feature enabled, these keycodes will work for both features, at the same time. You can disable the keycode functionality by defining the `*_DISABLE_KEYCODES` option for the specific feature.
+!> By default, if you have both the [RGB Light](feature_rgblight) and the RGB Matrix feature enabled, these keycodes will work for both features, at the same time. You can disable the keycode functionality by defining the `*_DISABLE_KEYCODES` option for the specific feature.
 
 ## RGB Matrix Effects :id=rgb-matrix-effects
 

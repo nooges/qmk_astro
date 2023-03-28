@@ -32,7 +32,7 @@ Steve Losh 在 [Space Cadet Shift](https://stevelosh.com/blog/2012/10/a-modern-s
 
 ## 须留意
 
-同时按下两边的Shift键时会与Space Cadet功能冲突。请参见[指令功能](zh-cn/feature_command.md)以了解如何解决，也可以在 `rules.mk` 中禁用指令：
+同时按下两边的Shift键时会与Space Cadet功能冲突。请参见[指令功能](zh-cn/feature_command)以了解如何解决，也可以在 `rules.mk` 中禁用指令：
 
 ```make
 COMMAND_ENABLE = no

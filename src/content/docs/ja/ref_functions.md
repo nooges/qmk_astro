@@ -76,7 +76,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 
 これを使うには、`set_single_persistent_default_layer(layer)` を使います。レイヤーに名前が定義されている場合は、代わりにそれを使うことができます (_QWERTY、_DVORAK、_COLEMAK など)。
 
-これは、デフォルトレイヤーを設定し、永続設定が更新され、もし [オーディオ](ja/feature_audio.md) がキーボードで有効でデフォルトレイヤーの音が設定されている場合は、曲を再生します。
+これは、デフォルトレイヤーを設定し、永続設定が更新され、もし [オーディオ](ja/feature_audio) がキーボードで有効でデフォルトレイヤーの音が設定されている場合は、曲を再生します。
 
 デフォルトレイヤーの音を設定するには、以下のように `config.h` ファイルに定義する必要があります。
 
@@ -98,7 +98,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 
 ## EEPROM (永続ストレージ)の消去
 
-オーディオ、RGB アンダーグロー、バックライト、キーの動作に問題がある場合は、EEPROM (永続的な設定のストレージ)をリセットすることができます。EEPROM を強制的にリセットするには、[`EEP_RST` キーコード](ja/quantum_keycodes.md)あるいは[ブートマジック](ja/feature_bootmagic.md)機能を使います。それらのいずれも選択肢にない場合は、カスタムマクロを使って行うことができます。
+オーディオ、RGB アンダーグロー、バックライト、キーの動作に問題がある場合は、EEPROM (永続的な設定のストレージ)をリセットすることができます。EEPROM を強制的にリセットするには、[`EEP_RST` キーコード](ja/quantum_keycodes)あるいは[ブートマジック](ja/feature_bootmagic)機能を使います。それらのいずれも選択肢にない場合は、カスタムマクロを使って行うことができます。
 
 EEPROM を消去するには、関数またはマクロから `eeconfig_init()` を実行し、ほとんどの設定をデフォルトにリセットします。
 

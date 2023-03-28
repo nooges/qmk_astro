@@ -32,7 +32,7 @@ After this, you'll want to use the `tap_dance_actions` array to specify what act
 
 The first option is enough for a lot of cases, that just want dual roles. For example, `ACTION_TAP_DANCE_DOUBLE(KC_SPC, KC_ENT)` will result in `Space` being sent on single-tap, `Enter` otherwise. 
 
-!> Keep in mind that only [basic keycodes](keycodes_basic.md) are supported here. Custom keycodes are not supported.
+!> Keep in mind that only [basic keycodes](keycodes_basic) are supported here. Custom keycodes are not supported.
 
 Similar to the first option, the second and third option are good for simple layer-switching cases.
 

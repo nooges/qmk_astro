@@ -141,7 +141,7 @@ The `layouts` object contains the data that represents the physical layout of th
 
 Some objects will also have `"w"` and `"h"` keys, which represent a key's width and height, respectively.
 
-?> For more on the `info.json` files, see [`info.json` Format](reference_info_json.md).
+?> For more on the `info.json` files, see [`info.json` Format](reference_info_json).
 
 
 ## How the Configurator Programs Keys

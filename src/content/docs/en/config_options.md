@@ -190,7 +190,7 @@ If you define these options you will enable the associated feature, which may in
 * `#define ONESHOT_TAP_TOGGLE 2`
   * how many taps before oneshot toggle is triggered
 * `#define COMBO_COUNT 2`
-  * Set this to the number of combos that you're using in the [Combo](feature_combo.md) feature. Or leave it undefined and programmatically set the count.
+  * Set this to the number of combos that you're using in the [Combo](feature_combo) feature. Or leave it undefined and programmatically set the count.
 * `#define COMBO_TERM 200`
   * how long for the Combo keys to be detected. Defaults to `TAPPING_TERM` if not defined.
 * `#define COMBO_MUST_HOLD_MODS`
@@ -210,7 +210,7 @@ If you define these options you will enable the associated feature, which may in
 * `#define TAP_HOLD_CAPS_DELAY 80`
   * Sets the delay for Tap Hold keys (`LT`, `MT`) when using `KC_CAPS_LOCK` keycode, as this has some special handling on MacOS.  The value is in milliseconds, and defaults to 80 ms if not defined. For macOS, you may want to set this to 200 or higher.
 * `#define KEY_OVERRIDE_REPEAT_DELAY 500`
-  * Sets the key repeat interval for [key overrides](feature_key_overrides.md).
+  * Sets the key repeat interval for [key overrides](feature_key_overrides).
 * `#define LEGACY_MAGIC_HANDLING`
   * Enables magic configuration handling for advanced keycodes (such as Mod Tap and Layer Tap)
 
@@ -390,7 +390,7 @@ This is a [make](https://www.gnu.org/software/make/manual/make.html) file that i
      ...  a.o c.o  ...  lib_b.a lib_d.a  ...
     ```
 * `LAYOUTS`
-  * A list of [layouts](feature_layouts.md) this keyboard supports.
+  * A list of [layouts](feature_layouts) this keyboard supports.
 * `LTO_ENABLE`
   * Enables Link Time Optimization (LTO) when compiling the keyboard.  This makes the process take longer, but it can significantly reduce the compiled size (and since the firmware is small, the added time is not noticeable).
 

@@ -62,8 +62,8 @@ QMK很大一部分是C语言编写的，小部分特性是C++的。QMK的设计�
 
 我们的编码风格很容易掌握，如果你有C语言或Python编码经验，跟随我们的编码风格不会有什么困难。
 
-* [编码规范 - C](zh-cn/coding_conventions_c.md)
-* [编码规范 - Python](zh-cn/coding_conventions_python.md)
+* [编码规范 - C](zh-cn/coding_conventions_c)
+* [编码规范 - Python](zh-cn/coding_conventions_python)
 
 # 基本准则 :id=general-guidelines
 
@@ -124,7 +124,7 @@ enum my_keycodes {
 大多数QMK新手都从创建一个自己的键映射
 开始。我们尽力保证键映射规范宽松 (毕竟键映射体现的是个人喜好) 不过我们仍要求须遵守以下准则，以便他人更好地发现并理解你的键映射代码。
 
-* 使用这份 [模板](zh-cn/documentation_templates.md) 写一份 `readme.md`。
+* 使用这份 [模板](zh-cn/documentation_templates) 写一份 `readme.md`。
 * 所有的键映射PR都会被压缩处理（squashed，参见[Github文档](https://docs.github.com/cn/github/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges)），如果你对commit被压缩很介意，请自行处理
 * 不要把新特性和键映射放在一个PR中。先提交新特性，再通过PR提交键映射
 * 键映射文件夹中不要提交 `Makefile` 文件（已不再使用）
@@ -136,7 +136,7 @@ QMK的最终归宿是键盘。有些键盘是社区维护的，有一些是制�
 
 我们建议你按下面的来操作:
 
-* 基于[模板](zh-cn/documentation_templates.md)编写 `readme.md`。
+* 基于[模板](zh-cn/documentation_templates)编写 `readme.md`。
 * commit数量尽量合理，否则你的PR可能会被我们压缩。
 * 不要把新特性和新键盘定义放在一个PR中。先提交新特性，再通过PR提交新键盘定义
 * 用最近一级的父文件夹的名字命名 `.c`/`.h` 文件, 比如 `/keyboards/<kb1>/<kb2>/<kb2>.[ch]`
@@ -145,7 +145,7 @@ QMK的最终归宿是键盘。有些键盘是社区维护的，有一些是制�
 
 ## Quantum/TMK 核心
 
-在你投入大量精力到新功能开发中之前，请先确保使用了最佳的实现方案。通过阅读[了解QMK](zh-cn/understanding_qmk.md)可以获得对QMK的基本认知，这个文档将带你领略QMK的程序流程，然后你可以和维护团队探讨一下实现你想法的最佳方法的思路，以下渠道都可以：
+在你投入大量精力到新功能开发中之前，请先确保使用了最佳的实现方案。通过阅读[了解QMK](zh-cn/understanding_qmk)可以获得对QMK的基本认知，这个文档将带你领略QMK的程序流程，然后你可以和维护团队探讨一下实现你想法的最佳方法的思路，以下渠道都可以：
 
 * [在Discord中交流](https://discord.gg/Uq7gcHh)
 * [建立一个Issue](https://github.com/qmk/qmk_firmware/issues/new)
@@ -163,7 +163,7 @@ QMK的最终归宿是键盘。有些键盘是社区维护的，有一些是制�
 
 * commit数量尽量合理，否则你的PR可能会被我们压缩。
 * 不要把新键盘定义或新键映射与关键改动放在一个PR中。先提交关键改动。
-* 给你的特性编写[单元测试](zh-cn/unit_testing.md)。
+* 给你的特性编写[单元测试](zh-cn/unit_testing)。
 * 你编辑的文件风格要一致，如果风格不明确或者是混搭风的，请先阅读上方的[代码规范](#coding-conventions)。
 
 ## 重构

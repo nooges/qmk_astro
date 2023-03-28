@@ -58,7 +58,7 @@ MT(MOD_LCTL | MOD_LSFT, KC_ESC)
 
 ## 注意
 
-目前 `MT()` 的 `kc`参数限制在[基础键码集](zh-cn/keycodes_basic.md)中，因此不能使用 `LCTL()`，`KC_TILD` 及其它大于 `0xFF` 的键码。原因是，QMK使用16位的键码，其中3位是功能标记，1位标记左右修饰键，4位存储修饰键码，仅剩8位存储键码。当一次Mod-Tap触发时，只要有一个右修饰键被激发，其它的修饰键也都被视为右修饰键，因此无法混搭形如左Control+右Shift的形式，会被视为右Control+右Shift
+目前 `MT()` 的 `kc`参数限制在[基础键码集](zh-cn/keycodes_basic)中，因此不能使用 `LCTL()`，`KC_TILD` 及其它大于 `0xFF` 的键码。原因是，QMK使用16位的键码，其中3位是功能标记，1位标记左右修饰键，4位存储修饰键码，仅剩8位存储键码。当一次Mod-Tap触发时，只要有一个右修饰键被激发，其它的修饰键也都被视为右修饰键，因此无法混搭形如左Control+右Shift的形式，会被视为右Control+右Shift
 
 若展开讲就比较复杂了。迁移到32位的键码可以很大程度解决这个问题，但同时会招致配列矩阵大小翻倍，也可能会有其它未知问题。若是想用修饰键配合按键，可以考虑使用[Tap Dance/多击键](zh-cn/feature_tap_dance.md#example-5-using-tap-dance-for-advanced-mod-tap-and-layer-tap-keys)
 
@@ -140,4 +140,4 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 ## 其它信息
 
-在[点按配置](zh-cn/tap_hold.md)中描述了影响Mod-Tap行为的标记。
+在[点按配置](zh-cn/tap_hold)中描述了影响Mod-Tap行为的标记。

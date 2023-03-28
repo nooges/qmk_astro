@@ -146,7 +146,7 @@ QMK使用 `KC_NO` 去标记开关矩阵中的空位。有时也会因方便或�
 
 部分对象包含 `"w"` 和 `"h"` 字段，用以描述按键的宽高值。
 
-?> 关于 `info.json` 文件的详细信息，参见[`info.json` 文件格式](zh-cn/reference_info_json.md)。
+?> 关于 `info.json` 文件的详细信息，参见[`info.json` 文件格式](zh-cn/reference_info_json)。
 
 
 ## 配置器如何配置按键

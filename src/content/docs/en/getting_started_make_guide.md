@@ -15,7 +15,7 @@ The `<target>` means the following
 * If no target is given, then it's the same as `all` below
 * `all` compiles as many keyboard/revision/keymap combinations as specified. For example, `make planck/rev4:default` will generate a single .hex, while `make planck/rev4:all` will generate a hex for every keymap available to the planck.
 * `flash`, `dfu`, `teensy`, `avrdude`, `dfu-util`, or `bootloadhid` compile and upload the firmware to the keyboard. If the compilation fails, then nothing will be uploaded. The programmer to use depends on the keyboard. For most keyboards it's `dfu`, but for ChibiOS keyboards you should use `dfu-util`, and `teensy` for standard Teensys. To find out which command you should use for your keyboard, check the keyboard specific readme. 
-  Visit the [Flashing Firmware](flashing.md) guide for more details of the available bootloaders.
+  Visit the [Flashing Firmware](flashing) guide for more details of the available bootloaders.
   * **Note**: some operating systems need privileged access for these commands to work. This means that you may need to setup [`udev rules`](faq_build.md#linux-udev-rules) to access these without root access, or to run the command with root access (`sudo make planck/rev4:default:flash`).
 * `clean`, cleans the build output folders to make sure that everything is built from scratch. Run this before normal compilation if you have some unexplainable problems.
 * `distclean` removes .hex files and .bin files.
@@ -115,11 +115,11 @@ This allows you to send Unicode characters using `X(<map index>)` in your keymap
 
 This allows you to send Unicode characters by inputting a mnemonic corresponding to the character you want to send. You will need to maintain a mapping table in your keymap file. All possible code points (up to `0x10FFFF`) are supported.
 
-For further details, as well as limitations, see the [Unicode page](feature_unicode.md).
+For further details, as well as limitations, see the [Unicode page](feature_unicode).
 
 `AUDIO_ENABLE`
 
-This allows you output audio on the C6 pin (needs abstracting). See the [audio page](feature_audio.md) for more information.
+This allows you output audio on the C6 pin (needs abstracting). See the [audio page](feature_audio) for more information.
 
 `VARIABLE_TRACE`
 
@@ -127,7 +127,7 @@ Use this to debug changes to variable values, see the [tracing variables](unit_t
 
 `KEY_LOCK_ENABLE`
 
-This enables [key lock](feature_key_lock.md).
+This enables [key lock](feature_key_lock).
 
 `SPLIT_KEYBOARD`
 
@@ -139,7 +139,7 @@ As there is no standard split communication driver for ARM-based split keyboards
 
 `CUSTOM_MATRIX`
 
-Lets you replace the default matrix scanning routine with your own code. For further details, see the [Custom Matrix page](custom_matrix.md).
+Lets you replace the default matrix scanning routine with your own code. For further details, see the [Custom Matrix page](custom_matrix).
 
 `DEBOUNCE_TYPE`
 

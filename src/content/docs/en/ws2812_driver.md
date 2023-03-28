@@ -1,5 +1,5 @@
 # WS2812 Driver
-This driver powers the [RGB Lighting](feature_rgblight.md) and [RGB Matrix](feature_rgb_matrix.md) features.
+This driver powers the [RGB Lighting](feature_rgblight) and [RGB Matrix](feature_rgb_matrix) features.
 
 Currently QMK supports the following addressable LEDs (however, the white LED in RGBW variants is not supported):
 

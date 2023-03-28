@@ -34,7 +34,7 @@ The `info.json` file is a JSON formatted dictionary. The first six keys noted he
 * `matrix_pins`
     * Configure the pins corresponding to columns and rows, or direct pins. See the [Matrix Pins](#matrix-pins) section for more detail.
 * `rgblight`
-    * Configure the [RGB Lighting feature](feature_rgblight.md). See the [RGB Lighting](#rgb-lighting) section for more detail.
+    * Configure the [RGB Lighting feature](feature_rgblight). See the [RGB Lighting](#rgb-lighting) section for more detail.
 
 
 ?> For all the available keys and their allowed values refer back to the [`data/schemas/keyboard.jsonschema`](https://github.com/qmk/qmk_firmware/blob/master/data/schemas/keyboard.jsonschema) file.
@@ -283,7 +283,7 @@ The device version is a BCD (binary coded decimal) value, in the format `MMmr`, 
 
 ## Encoders
 
-This section controls the basic [rotary encoder](feature_encoders.md) support.
+This section controls the basic [rotary encoder](feature_encoders) support.
 
 Enable by setting
 
@@ -349,7 +349,7 @@ Example:
 
 ## Bootmagic
 
-This section configures [Bootmagic Lite](feature_bootmagic.md) support.
+This section configures [Bootmagic Lite](feature_bootmagic) support.
 
 The following options can be configured:
 

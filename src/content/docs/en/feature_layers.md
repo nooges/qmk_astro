@@ -12,14 +12,14 @@ These functions allow you to activate layers in various ways. Note that layers a
 * `MO(layer)` - momentarily activates *layer*. As soon as you let go of the key, the layer is deactivated.
 * `LM(layer, mod)` - Momentarily activates *layer* (like `MO`), but with modifier(s) *mod* active. Only supports layers 0-15. The modifiers this keycode accept are prefixed with `MOD_`, not `KC_`. These modifiers can be combined using bitwise OR, e.g. `LM(_RAISE, MOD_LCTL | MOD_LALT)`.
 * `LT(layer, kc)` - momentarily activates *layer* when held, and sends *kc* when tapped. Only supports layers 0-15.
-* `OSL(layer)` - momentarily activates *layer* until the next key is pressed. See [One Shot Keys](one_shot_keys.md) for details and additional functionality.
+* `OSL(layer)` - momentarily activates *layer* until the next key is pressed. See [One Shot Keys](one_shot_keys) for details and additional functionality.
 * `TG(layer)` - toggles *layer*, activating it if it's inactive and vice versa
 * `TO(layer)` - activates *layer* and de-activates all other layers (except your default layer). This function is special, because instead of just adding/removing one layer to your active layer stack, it will completely replace your current active layers, uniquely allowing you to replace higher layers with a lower one. This is activated on keydown (as soon as the key is pressed).
 * `TT(layer)` - Layer Tap-Toggle. If you hold the key down, *layer* is activated, and then is de-activated when you let go (like `MO`). If you repeatedly tap it, the layer will be toggled on or off (like `TG`). It needs 5 taps by default, but you can change this by defining `TAPPING_TOGGLE` -- for example, `#define TAPPING_TOGGLE 2` to toggle on just two taps.
 
 ### Caveats :id=caveats
 
-Currently, the `layer` argument of `LT()` is limited to layers 0-15, and the `kc` argument to the [Basic Keycode set](keycodes_basic.md), meaning you can't use keycodes like `LCTL()`, `KC_TILD`, or anything greater than `0xFF`. This is because QMK uses 16-bit keycodes, of which 4 bits are used for the function identifier and 4 bits for the layer, leaving only 8 bits for the keycode.
+Currently, the `layer` argument of `LT()` is limited to layers 0-15, and the `kc` argument to the [Basic Keycode set](keycodes_basic), meaning you can't use keycodes like `LCTL()`, `KC_TILD`, or anything greater than `0xFF`. This is because QMK uses 16-bit keycodes, of which 4 bits are used for the function identifier and 4 bits for the layer, leaving only 8 bits for the keycode.
 
 For a similar reason, the `layer` argument of `LM()` is also limited to layers 0-15 and the `mod` argument must fit within 5 bits. As a consequence, although left and right modifiers are supported by `LM()`, it is impossible to mix and match left and right modifiers. Specifying at least one right-hand modifier in a combination such as `MOD_RALT|MOD_LSFT` will convert *all* the listed modifiers to their right-hand counterpart. So, using the aforementionned mod-mask will actually send <kbd>Right Alt</kbd>+<kbd>Right Shift</kbd>. Make sure to use the `MOD_xxx` constants over alternative ways of specifying modifiers when defining your layer-mod key.
 
@@ -102,7 +102,7 @@ This runs code every time that the layers get changed.  This can be useful for l
 
 ### Example `layer_state_set_*` Implementation
 
-This example shows how to set the [RGB Underglow](feature_rgblight.md) lights based on the layer, using the Planck as an example.
+This example shows how to set the [RGB Underglow](feature_rgblight) lights based on the layer, using the Planck as an example.
 
 ```c
 layer_state_t layer_state_set_user(layer_state_t state) {

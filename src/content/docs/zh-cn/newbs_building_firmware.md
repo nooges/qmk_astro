@@ -36,10 +36,10 @@
 
 这一步的目标完全取决于你，既可以去修复一个你不爽的问题，也可以完全重写一个新的。你可以删除不需要的层，或是增加层到32个的上限，QMK功能丰富，可以在左边的导航栏中寻找“使用QMK”一节，浏览完整的功能信息，也可以看看这些比较简单的：
 
-* [基础键码](zh-cn/keycodes_basic.md)
-* [量子键码](zh-cn/quantum_keycodes.md)
-* [Grave/Escape](zh-cn/feature_grave_esc.md)
-* [鼠标键](zh-cn/feature_mouse_keys.md)
+* [基础键码](zh-cn/keycodes_basic)
+* [量子键码](zh-cn/quantum_keycodes)
+* [Grave/Escape](zh-cn/feature_grave_esc)
+* [鼠标键](zh-cn/feature_mouse_keys)
 
 ?> 你大概理解了键映射如何工作的话，留心尽量少去做改动，改动越多出了问题越难排查。
 
@@ -65,4 +65,4 @@ Checking file size of planck_rev5_default.hex                                   
 
 ## 刷写固件
 
-参阅[刷写固件](zh-cn/newbs_flashing.md)以了解如何将固件写入键盘主控。
+参阅[刷写固件](zh-cn/newbs_flashing)以了解如何将固件写入键盘主控。

@@ -500,7 +500,7 @@ If you are having issues with pointing device drivers debug messages can be enab
 #define POINTING_DEVICE_DEBUG
 ```
  
-?> The messages will be printed out to the `CONSOLE` output. For additional information, refer to [Debugging/Troubleshooting QMK](faq_debug.md).
+?> The messages will be printed out to the `CONSOLE` output. For additional information, refer to [Debugging/Troubleshooting QMK](faq_debug).
 
 
 ---

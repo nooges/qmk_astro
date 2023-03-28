@@ -195,4 +195,4 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
 
 ## 更多资料 :id=additional-reading
 
-为了让QMK配置器支持你的键盘，你的键盘定义必须存在于 `qmk_firmware` 代码库的 `master` 分支中。相关操作指引，请参见[在QMK配置器中支持你的键盘](zh-cn/reference_configurator_support.md).
+为了让QMK配置器支持你的键盘，你的键盘定义必须存在于 `qmk_firmware` 代码库的 `master` 分支中。相关操作指引，请参见[在QMK配置器中支持你的键盘](zh-cn/reference_configurator_support).

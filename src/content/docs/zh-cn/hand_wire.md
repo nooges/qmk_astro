@@ -98,7 +98,7 @@
 
 ### 分体键盘的注意事项
 
-如果你想制作的是分体键盘（如Dactyl），每一半边都需要一个控制器以及连通两方的通信用线（如TRRS或硬连接线）。更多资料参见[QMK分体键盘文档](zh-cn/feature_split_keyboard.md)。
+如果你想制作的是分体键盘（如Dactyl），每一半边都需要一个控制器以及连通两方的通信用线（如TRRS或硬连接线）。更多资料参见[QMK分体键盘文档](zh-cn/feature_split_keyboard)。
 （译注：TRRS即一种常用的4线耳机线插口，具体信息请查阅维基百科或[这份知乎文章](https://zhuanlan.zhihu.com/p/144233538)）
 
 
@@ -252,4 +252,4 @@ Keyboard Firmware Builder提供的源代码是QMK的，但版本是2017年初的
 
 ## 序: 键盘矩阵是如何工作的（以及为什么需要二极管） :id=preamble-how-a-keyboard-matrix-works-and-why-we-need-diodes
 
-* [键盘矩阵是如何工作的](zh-cn/how_a_matrix_works.md)
+* [键盘矩阵是如何工作的](zh-cn/how_a_matrix_works)

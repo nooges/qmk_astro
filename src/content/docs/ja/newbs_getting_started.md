@@ -167,7 +167,7 @@ QMK のインストール後に、このコマンドで設定できます:
 
 ?> qmk ホームフォルダは、セットアップ時に `qmk setup -H <path>` を使って指定し、[cli 構成](ja/cli_configuration.md?id=single-key-example)と変数 `user.qmk_home` を使って変更できます。利用可能な全てのオプションについては、`qmk setup --help` を実行します。
 
-?> 既に GitHub の使い方を知っている場合、[これらの手順に従うことをお勧めします](ja/getting_started_github.md)。そして `qmk setup <github_username>/qmk_firmware` を使って個人用の fork から clone します。この一文の意味が分からない場合、このメッセージは無視してかまいません。
+?> 既に GitHub の使い方を知っている場合、[これらの手順に従うことをお勧めします](ja/getting_started_github)。そして `qmk setup <github_username>/qmk_firmware` を使って個人用の fork から clone します。この一文の意味が分からない場合、このメッセージは無視してかまいません。
 
 ## 4. ビルド環境の確認
 
@@ -207,4 +207,4 @@ QMK を初めて使うほとんどの人は、キーボードを1つしか持っ
 
 # キーマップの作成
 
-これであなた専用のキーマップを作成する準備ができました！次は[初めてのファームウェアの構築](ja/newbs_building_firmware.md)で専用のキーマップを作成します。
+これであなた専用のキーマップを作成する準備ができました！次は[初めてのファームウェアの構築](ja/newbs_building_firmware)で専用のキーマップを作成します。

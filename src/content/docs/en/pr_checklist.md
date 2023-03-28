@@ -8,7 +8,7 @@ If there are any inconsistencies with these recommendations, you're best off [cr
 
 - PR should be submitted using a non-`master` branch on the source repository
     - this does not mean you target a different branch for your PR, rather that you're not working out of your own master branch
-    - if submitter _does_ use their own `master` branch, they'll be given a link to the ["how to git"](newbs_git_using_your_master_branch.md) page after merging -- (end of this document will contain the contents of the message)
+    - if submitter _does_ use their own `master` branch, they'll be given a link to the ["how to git"](newbs_git_using_your_master_branch) page after merging -- (end of this document will contain the contents of the message)
 - PRs should contain the smallest amount of modifications required for a single change to the codebase
     - multiple keyboards at the same time is not acceptable
         - exception: keymaps for a single user targeting multiple keyboards and/or userspace is acceptable
@@ -79,7 +79,7 @@ https://github.com/qmk/qmk_firmware/pulls?q=is%3Apr+is%3Aclosed+label%3Akeyboard
       - Bootmagic Configuration
       - LED Indicator Configuration
 - `readme.md`
-    - must follow the [template](https://github.com/qmk/qmk_firmware/blob/master/data/templates/keyboard/readme.md)
+    - must follow the [template](https://github.com/qmk/qmk_firmware/blob/master/data/templates/keyboard/readme)
     - flash command is present, and has `:flash` at end
     - valid hardware availability link (unless handwired) -- private groupbuys are okay, but one-off prototypes will be questioned. If open-source, a link to files should be provided.
     - clear instructions on how to reset the board into bootloader mode

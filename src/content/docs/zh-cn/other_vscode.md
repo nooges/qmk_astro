@@ -20,7 +20,7 @@
 这份指引提供了在Windows及Ubuntu 18.04下所有的配置方法。
 
 # 配置VS Code
-一开始，你需要首先确认所有的构建工具已经安装配置完成，且QMK Firmware仓库已拷贝至本地。前往参阅[新人指引](zh-cn/newbs_getting_started.md)确保已完成初始配置。
+一开始，你需要首先确认所有的构建工具已经安装配置完成，且QMK Firmware仓库已拷贝至本地。前往参阅[新人指引](zh-cn/newbs_getting_started)确保已完成初始配置。
 
 ## Windows
 

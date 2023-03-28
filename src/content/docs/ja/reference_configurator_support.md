@@ -146,7 +146,7 @@ JSON ファイルをビルドする最も簡単な方法は、[Keyboard Layout E
 
 一部のオブジェクトには、それぞれキーの幅と高さを表す `"w"` 属性キーと `"h"` 属性キーがあります。
 
-?> `info.json` ファイルの詳細については、[`info.json` 形式](ja/reference_info_json.md) を参照してください。
+?> `info.json` ファイルの詳細については、[`info.json` 形式](ja/reference_info_json) を参照してください。
 
 
 ## Configurator がキーをプログラムする方法

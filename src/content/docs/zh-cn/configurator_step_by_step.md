@@ -41,8 +41,8 @@
 
 ?> 鼠标在键上悬停时会有一个键码值的提示出现，详细描述信息请参见:
 
-* [基础键码资料](zh-cn/keycodes_basic.md)
-* [进阶键码资料](zh-cn/feature_advanced_keycodes.md)
+* [基础键码资料](zh-cn/keycodes_basic)
+* [进阶键码资料](zh-cn/feature_advanced_keycodes)
 
 !> 如果你选择的配列与物理实机有出入，请将不需要的按键留空。如果不清楚应该用哪个键，例如，你只需要一个退格键，但 `LAYOUT_all` 中有两个退格键，须将两个键都放上一样的键码。
 
@@ -60,4 +60,4 @@
 
 ## 下一步：刷写到键盘中
 
-参见[刷写固件](zh-cn/newbs_flashing.md).
+参见[刷写固件](zh-cn/newbs_flashing).

@@ -5,10 +5,10 @@
   git diff 0.15.12 HEAD -- docs/faq_keymap.md | cat
 -->
 
-本页包含人们经常遇到的关于键映射的问题，如果你还没阅读过[键映射概览](zh-cn/keymap.md)，请先阅读一下。
+本页包含人们经常遇到的关于键映射的问题，如果你还没阅读过[键映射概览](zh-cn/keymap)，请先阅读一下。
 
 ## 我能使用的键码有哪些?
-所有可用键码收录在[键码](zh-cn/keycodes.md)页，在有更详尽的文档时，我们会更新这个链接。
+所有可用键码收录在[键码](zh-cn/keycodes)页，在有更详尽的文档时，我们会更新这个链接。
 
 所有键码实际定义在[quantum/keycode.h](https://github.com/qmk/qmk_firmware/blob/master/quantum/keycode.h).
 
@@ -36,8 +36,8 @@ QMK有两个功能系列，Bootmagic及指令，都可以让键盘随时变得�
 
 快速恢复的办法是插入键盘时按住空格+`Backspace`键，这样会重置键盘内存储的设置信息，键盘就会恢复常态。如果问题依旧存在，请参考：
 
-* [Bootmagic](zh-cn/feature_bootmagic.md)
-* [指令](zh-cn/feature_command.md) 
+* [Bootmagic](zh-cn/feature_bootmagic)
+* [指令](zh-cn/feature_command) 
 
 ## 菜单键（Menu）不可用
 
@@ -84,7 +84,7 @@ https://github.com/tmk/tmk_keyboard/issues/67
 
 ## 输入形如法语中软音'Ç'这样的非ASCII字符
 
-参见[Unicode](zh-cn/feature_unicode.md)功能.
+参见[Unicode](zh-cn/feature_unicode)功能.
 
 ## macOS系统下的 `Fn`
 
@@ -126,7 +126,7 @@ https://github.com/tekezo/Karabiner/issues/403
 
 ## Esc和<code>&#96;</code>位于同一个键位
 
-参见[Grave Escape](zh-cn/feature_grave_esc.md)功能.
+参见[Grave Escape](zh-cn/feature_grave_esc)功能.
 
 ## Mac OSX下的弹出功能
 `KC_EJCT` 在OSX下可用。 https://github.com/tmk/tmk_keyboard/issues/250

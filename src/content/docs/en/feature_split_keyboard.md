@@ -16,12 +16,12 @@ For this, we will mostly be talking about the generic implementation used by the
 
 | Transport                    | AVR                | ARM                |
 |------------------------------|--------------------|--------------------|
-| ['serial'](serial_driver.md) | :heavy_check_mark: | :white_check_mark: <sup>1</sup> |
+| ['serial'](serial_driver) | :heavy_check_mark: | :white_check_mark: <sup>1</sup> |
 | I2C                          | :heavy_check_mark: |                    |
 
 Notes:
 
-1. Both hardware and software limitations are detailed within the [driver documentation](serial_driver.md).
+1. Both hardware and software limitations are detailed within the [driver documentation](serial_driver).
 
 ## Hardware Configuration
 

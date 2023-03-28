@@ -13,11 +13,11 @@
 
 该章节做了如下假设：
 
-1. 你已有Github账号且已[fork了qmk_firmware仓库](zh-cn/getting_started_github.md)到你的账号下。
+1. 你已有Github账号且已[fork了qmk_firmware仓库](zh-cn/getting_started_github)到你的账号下。
 2. 已完成了[构建环境](zh-cn/newbs_getting_started.md#set-up-your-environment)及[QMK](zh-cn/newbs_getting_started.md#set-up-qmk)配置。
 
 ---
 
-- 第一节：[在你Fork的主干上：频繁更新，不要提交](zh-cn/newbs_git_using_your_master_branch.md)
-- 第二节：[解决合并冲突](zh-cn/newbs_git_resolving_merge_conflicts.md)
-- 第三节：[重新同步一个脱离同步状态的Git分支](zh-cn/newbs_git_resynchronize_a_branch.md)
+- 第一节：[在你Fork的主干上：频繁更新，不要提交](zh-cn/newbs_git_using_your_master_branch)
+- 第二节：[解决合并冲突](zh-cn/newbs_git_resolving_merge_conflicts)
+- 第三节：[重新同步一个脱离同步状态的Git分支](zh-cn/newbs_git_resynchronize_a_branch)

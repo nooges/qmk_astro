@@ -205,7 +205,7 @@ QMK在 `keymaps[][MATRIX_ROWS][MATRIX_COLS]` 中保存着16位的动作码（有
 
 在阅读完本节后，你应该掌握了构建自己的键映射的基础能力，更多的资料请参见：
 
-* [键码](zh-cn/keycodes.md)
-* [键映射FAQ](zh-cn/faq_keymap.md)
+* [键码](zh-cn/keycodes)
+* [键映射FAQ](zh-cn/faq_keymap)
 
 我们仍在优化这份文档，如果你有更好的优化建议，请[提交一份issue](https://github.com/qmk/qmk_firmware/issues/new)！

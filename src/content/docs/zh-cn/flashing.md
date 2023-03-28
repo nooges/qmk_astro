@@ -53,7 +53,7 @@ QMK维护了[一个LUFA DFU bootloader的分支版本](https://github.com/qmk/lu
 //#define QMK_LED E6
 //#define QMK_SPEAKER C6
 ```
-目前来讲不推荐将 `QMK_ESC` 键设置成与[Bootmagic](zh-cn/feature_bootmagic.md)同一个键，否则按下该键时只会让MCU在bootloader模式上反复进出。
+目前来讲不推荐将 `QMK_ESC` 键设置成与[Bootmagic](zh-cn/feature_bootmagic)同一个键，否则按下该键时只会让MCU在bootloader模式上反复进出。
 
 制造商及型号字符串自动从 `config.h` 中获取，并会在型号后追加 " Bootloader"。
 
@@ -198,7 +198,7 @@ BOOTLOADER = qmk-hid
 //#define QMK_SPEAKER C6
 ```
 
-目前来讲不推荐将 `QMK_ESC` 键设置成与[Bootmagic Lite](zh-cn/feature_bootmagic.md)同一个键，否则按下该键时只会让MCU在bootloader模式上反复进出。
+目前来讲不推荐将 `QMK_ESC` 键设置成与[Bootmagic Lite](zh-cn/feature_bootmagic)同一个键，否则按下该键时只会让MCU在bootloader模式上反复进出。
 
 制造商及型号字符串自动从 `config.h` 中获取，并会在型号后追加 " Bootloader"。
 

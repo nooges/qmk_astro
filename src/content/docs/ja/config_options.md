@@ -180,7 +180,7 @@ QMK での全ての利用可能な設定にはデフォルトがあります。�
 * `#define ONESHOT_TAP_TOGGLE 2`
   * ワンショットトグルが引き起こされるまでのタップ数
 * `#define COMBO_COUNT 2`
-  * [コンボ](ja/feature_combo.md)機能で使っているコンボの数にこれを設定します。
+  * [コンボ](ja/feature_combo)機能で使っているコンボの数にこれを設定します。
 * `#define COMBO_TERM 200`
   * コンボキーが検出されるまでの時間。定義されていない場合は、デフォルトは `TAPPING_TERM` です。
 * `#define TAP_CODE_DELAY 100`
@@ -327,10 +327,10 @@ QMK での全ての利用可能な設定にはデフォルトがあります。�
      ...  a.o c.o  ...  lib_b.a lib_d.a  ...
     ```
 * `LAYOUTS`
-  * このキーボードがサポートする[レイアウト](ja/feature_layouts.md)のリスト
+  * このキーボードがサポートする[レイアウト](ja/feature_layouts)のリスト
 * `LTO_ENABLE`
   * キーボードをコンパイルする時に、Link Time Optimization (LTO) を有効にします。これは処理に時間が掛かりますが、コンパイルされたサイズを大幅に減らします (そして、ファームウェアが小さいため、追加の時間は分からないくらいです)。
-ただし、LTO が有効な場合、古い TMK のマクロと関数の機能が壊れるため、自動的にこれらの機能を無効にします。これは `NO_ACTION_MACRO` と `NO_ACTION_FUNCTION` を自動的に定義することで行われます。(メモ: これは QMK の [マクロ](ja/feature_macros.md) と [レイヤー](ja/feature_layers.md) には影響を与えません。)
+ただし、LTO が有効な場合、古い TMK のマクロと関数の機能が壊れるため、自動的にこれらの機能を無効にします。これは `NO_ACTION_MACRO` と `NO_ACTION_FUNCTION` を自動的に定義することで行われます。(メモ: これは QMK の [マクロ](ja/feature_macros) と [レイヤー](ja/feature_layers) には影響を与えません。)
 
 ## AVR MCU オプション
 * `MCU = atmega32u4`

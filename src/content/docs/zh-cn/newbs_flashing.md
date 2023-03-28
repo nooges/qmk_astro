@@ -112,7 +112,7 @@ QMK将核查键盘配置，并尝试使用合适的bootloader进行刷写。也�
 
     WARNING: This board's bootloader is not specified or is not supported by the ":flash" target at this time.
 
-此时，只能退回到需要指定bootloader的方法，具体参见[刷写固件](zh-cn/flashing.md)指引。
+此时，只能退回到需要指定bootloader的方法，具体参见[刷写固件](zh-cn/flashing)指引。
 
 ## 上手试试键盘吧！
 

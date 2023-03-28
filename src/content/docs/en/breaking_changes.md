@@ -10,12 +10,12 @@ Practically, this means QMK merges the `develop` branch into the `master` branch
 
 ## What has been included in past Breaking Changes?
 
-* [2023 Feb 26](ChangeLog/20230226.md)
-* [2022 Nov 26](ChangeLog/20221126.md)
-* [2022 Aug 27](ChangeLog/20220827.md)
-* [2022 May 28](ChangeLog/20220528.md)
-* [2022 Feb 26](ChangeLog/20220226.md)
-* [Older Breaking Changes](breaking_changes_history.md)
+* [2023 Feb 26](ChangeLog/20230226)
+* [2022 Nov 26](ChangeLog/20221126)
+* [2022 Aug 27](ChangeLog/20220827)
+* [2022 May 28](ChangeLog/20220528)
+* [2022 Feb 26](ChangeLog/20220226)
+* [Older Breaking Changes](breaking_changes_history)
 
 ## When is the next Breaking Change?
 
@@ -137,7 +137,7 @@ This happens immediately after the previous `develop` branch is merged to `maste
 * Announce that both `master` and `develop` are now unlocked -- message `@Breaking Changes Updates` on `#qmk_firmware` in Discord:
     * `@Breaking Changes Updates -- Hey folks, develop has now been merged into master -- newest batch of changes are now available for everyone to use!`
 
-* (Optional) [update ChibiOS + ChibiOS-Contrib on `develop`](chibios_upgrade_instructions.md)
+* (Optional) [update ChibiOS + ChibiOS-Contrib on `develop`](chibios_upgrade_instructions)
 
 
 ### Set up Discord events for the next cycle

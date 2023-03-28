@@ -22,7 +22,7 @@ On keyboards with onboard RGB LEDs, it is usually enabled by default. If it is n
 RGBLIGHT_ENABLE = yes
 ```
 
-?> There are additional configuration options for ARM controllers that offer increased performance over the default WS2812 bitbang driver. Please see [WS2812 Driver](ws2812_driver.md) for more information.
+?> There are additional configuration options for ARM controllers that offer increased performance over the default WS2812 bitbang driver. Please see [WS2812 Driver](ws2812_driver) for more information.
 
 For APA102 LEDs, add the following to your `rules.mk`:
 
@@ -81,7 +81,7 @@ Changing the **Value** sets the overall brightness.<br>
 ?> `RGB_*` keycodes cannot be used with functions like `tap_code16(RGB_HUI)` as they're not USB HID keycodes. If you wish to replicate similar behaviour in custom code within your firmware (e.g. inside `encoder_update_user()` or `process_record_user()`), the equivalent [RGB functions](#functions) should be used instead.
 
 
-!> By default, if you have both the RGB Light and the [RGB Matrix](feature_rgb_matrix.md) feature enabled, these keycodes will work for both features, at the same time. You can disable the keycode functionality by defining the `*_DISABLE_KEYCODES` option for the specific feature.
+!> By default, if you have both the RGB Light and the [RGB Matrix](feature_rgb_matrix) feature enabled, these keycodes will work for both features, at the same time. You can disable the keycode functionality by defining the `*_DISABLE_KEYCODES` option for the specific feature.
 
 ## Configuration
 

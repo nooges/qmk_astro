@@ -79,7 +79,7 @@ Similarly, in addition to `get_oneshot_mods()`, there also exists these function
 
 ## Examples :id=examples
 
-The following examples use [advanced macro functions](feature_macros.md#advanced-macro-functions) which you can read more about in the [documentation page on macros](feature_macros.md).
+The following examples use [advanced macro functions](feature_macros.md#advanced-macro-functions) which you can read more about in the [documentation page on macros](feature_macros).
 
 ### Alt + Escape for Alt + Tab :id=alt-escape-for-alt-tab
 
@@ -168,20 +168,20 @@ This page used to encompass a large set of features. We have moved many sections
 
 ## Layers :id=switching-and-toggling-layers
 
-* [Layers](feature_layers.md)
+* [Layers](feature_layers)
 
 ## Mod-Tap :id=mod-tap
 
-* [Mod-Tap](mod_tap.md)
+* [Mod-Tap](mod_tap)
 
 ## One Shot Keys :id=one-shot-keys
 
-* [One Shot Keys](one_shot_keys.md)
+* [One Shot Keys](one_shot_keys)
 
 ## Tap-Hold Configuration Options :id=tap-hold-configuration-options
 
-* [Tap-Hold Configuration Options](tap_hold.md)
+* [Tap-Hold Configuration Options](tap_hold)
 
 ## Key Overrides :id=key-overrides
 
-* [Key Overrides](feature_key_overrides.md)
+* [Key Overrides](feature_key_overrides)

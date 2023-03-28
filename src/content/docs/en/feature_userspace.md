@@ -54,7 +54,7 @@ endif
 
 ### Override default userspace
 
-By default the userspace used will be the same as the keymap name. In some situations this isn't desirable. For instance, if you use the [layout](feature_layouts.md) feature you can't use the same name for different keymaps (e.g. ANSI and ISO). You can name your layouts `mylayout-ansi` and `mylayout-iso` and add the following line to your layout's `rules.mk`:
+By default the userspace used will be the same as the keymap name. In some situations this isn't desirable. For instance, if you use the [layout](feature_layouts) feature you can't use the same name for different keymaps (e.g. ANSI and ISO). You can name your layouts `mylayout-ansi` and `mylayout-iso` and add the following line to your layout's `rules.mk`:
 
 ```
 USER_NAME := mylayout
@@ -68,7 +68,7 @@ Additionally, `config.h` here will be processed like the same file in your keyma
 
 The reason for this, is that `<name>.h` won't be added in time to add settings (such as `#define TAPPING_TERM 100`), and including the `<name.h>` file in any `config.h` files will result in compile issues.
 
-!>You should use the `config.h` for [configuration options](config_options.md), and the `<name>.h` file for user or keymap specific settings (such as the enum for layer or keycodes)
+!>You should use the `config.h` for [configuration options](config_options), and the `<name>.h` file for user or keymap specific settings (such as the enum for layer or keycodes)
 
 
 ## Readme (`readme.md`)
@@ -117,7 +117,7 @@ For a more complicated example, checkout [`/users/drashna/`](https://github.com/
 
 ### Customized Functions
 
-QMK has a bunch of [functions](custom_quantum_functions.md) that have [`_quantum`, `_kb`, and `_user` versions](custom_quantum_functions.md#a-word-on-core-vs-keyboards-vs-keymap) that you can use.  You will pretty much always want to use the user version of these functions.  But the problem is that if you use them in your userspace, then you don't have a version that you can use in your keymap. 
+QMK has a bunch of [functions](custom_quantum_functions) that have [`_quantum`, `_kb`, and `_user` versions](custom_quantum_functions.md#a-word-on-core-vs-keyboards-vs-keymap) that you can use.  You will pretty much always want to use the user version of these functions.  But the problem is that if you use them in your userspace, then you don't have a version that you can use in your keymap. 
 
 However, you can actually add support for keymap version, so that you can use it in both your userspace and your keymap! 
 

@@ -86,7 +86,7 @@ C 言語におけるビット演算のより詳しい情報は、[ここ](https:
 
 ## 例 :id=examples
 
-次の例は、[マクロについてのページ](ja/feature_macros.md) で読める [高度なマクロ](ja/feature_macros.md?id=advanced-macro-functions) を使っています。
+次の例は、[マクロについてのページ](ja/feature_macros) で読める [高度なマクロ](ja/feature_macros.md?id=advanced-macro-functions) を使っています。
 ### Alt + Tab の代わりの Alt + Escape :id=alt-escape-for-alt-tab
 
 左 Alt と `KC_ESC` が押されたときに、アプリ切り替えの（左 Alt と） `KC_TAB` のように振る舞うことを実現する単純な例です。この例は、左 Alt だけがアクティブになっているかを厳格に確認します。つまり、Alt+Shift+Esc によるアプリの逆順での切り替えはできません。また、この例は、実際の Alt+Escape キーボードショートカットを起動することはできなくなりますが、AltGr+Escape キーボードショートカットを起動することはできることに留意してください。
@@ -170,16 +170,16 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 ## レイヤー :id=switching-and-toggling-layers
 
-* [レイヤー](ja/feature_layers.md)
+* [レイヤー](ja/feature_layers)
 
 ## モッドタップ :id=mod-tap
 
-* [モッドタップ](ja/mod_tap.md)
+* [モッドタップ](ja/mod_tap)
 
 ## ワンショットキー :id=one-shot-keys
 
-* [ワンショットキー](ja/one_shot_keys.md)
+* [ワンショットキー](ja/one_shot_keys)
 
 ## タップホールド設定オプション :id=tap-hold-configuration-options
 
-* [タップホールド設定オプション](ja/tap_hold.md)
+* [タップホールド設定オプション](ja/tap_hold)
