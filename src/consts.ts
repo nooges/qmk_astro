@@ -1,6 +1,6 @@
 export const SITE = {
-	title: 'Documentation',
-	description: 'Your website description.',
+	title: 'QMK Firmware',
+	description: 'Documentation for working with QMK Firmware',
 	defaultLanguage: 'en-us',
 } as const;
 
@@ -36,11 +36,19 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	en: {
-		'Section Header': [
-			{ text: 'Introduction', link: 'en/introduction' },
-			{ text: 'Page 2', link: 'en/page-2' },
-			{ text: 'Page 3', link: 'en/page-3' },
+		'Tutorial': [
+			{ text: 'Introduction', link: 'en/newbs' },
+			{ text: 'Setup', link: 'en/newbs_getting_started' },
+			{ text: 'Building Your First Firmware', link: 'en/newbs_building_firmware' },
+			{ text: 'Flashing Firmware', link: 'en/newbs_flashing' },
+			{ text: 'Getting Help/Support', link: 'en/support' },
 		],
-		'Another Section': [{ text: 'Page 4', link: 'en/page-4' }],
+		'FAQs': [
+			{ text: 'General FAQ', link: 'en/faq_general' },
+			{ text: 'Build/Compile QMK', link: 'en/faq_build' },
+			{ text: 'Troubleshooting QMK', link: 'en/faq_misc' },
+			{ text: 'Debugging QMK', link: 'en/faq_debug' },
+			{ text: 'Keymap FAQ', link: 'en/faq_keymap' },
+		],
 	},
 };
